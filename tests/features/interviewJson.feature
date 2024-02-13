@@ -5,6 +5,10 @@ Background: Load JSON
     And I load "output_stop.csv"
     And I load "output_order.csv"
 
+    Examples:
+        | file_name |
+        | input.csv |
+        | output.csv |
 
 Scenario: Number of entries in input matches output_stops
     Then Number of entries should match

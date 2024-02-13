@@ -11,3 +11,4 @@ plotly
 dash
 orjson
 locust
+openai
